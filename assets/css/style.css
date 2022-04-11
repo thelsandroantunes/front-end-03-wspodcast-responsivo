@@ -2,9 +2,9 @@
   /*colors*/
   --flourescent-blue: hsl(178,100%,49%);
   --heliotrope-gray: hsl(253,15%,70%);
-  --russian-violet: hsl(252,80%,16%);
-  --dark-violet: hsl(252,100%,12%);
-  --space-cadet: hsl(247,43%,20%);
+  --russian-violet: hsl(0,0%,4%);
+  --dark-violet: hsl(0,0%,00%);
+  --space-cadet: hsl(0,00%,5%);
   --blue-ryb: hsl(221,100%,50%);
   --white: hsl(0,0%,100%);
 
@@ -40,6 +40,7 @@ html {
 body{
   background: var(--dark-violet);
   color: var(--white);
+  height: 200vh;
 }
 li {
   list-style: none;
@@ -89,7 +90,20 @@ input {
 ::-webkit-scrollbar-thumb:hover {
   background: hsla(0, 0%, 100%, 0.6);
 }
-
+/*reused style*/
+.btn{
+  color: var(--white);
+  font-size: var(--fs-4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 9px 10px;
+  border-radius: 4px;
+}
+.container {
+  padding: 0 15px;
+}
 /*header*/
 header{
   position: fixed;
@@ -109,4 +123,81 @@ header .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.nav-toggle-btn{
+  color: var(--white);
+  font-size: 35px;
+  border-radius: 4px;
+}
+.nav-toggle-btn ion-icon {
+  --ionicon-stroke-widht: 40px;
+}
+.navbar {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  background: var(--russian-violet);
+  border-radius: 8px 10px 10px;
+  padding: 30px 10px 10px;
+  box-shadow: 0 -1px 10px hsla(0, 0%, 0%, 0.5);
+  z-index: 2;
+  visibility: hidden;
+  transition: 0.15s ease-in;
+}
+.navbar.active {
+  bottom: 0;
+  visibility: visible;
+  transition: 0.25s ease-out;
+}
+.navbar-list {
+  padding-bottom: 5px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.5);
+  margin-bottom: 5px;
+}
+.navbar::before{
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 4px;
+  background: hsla(0, 0%, 100%, 0.5);
+  border-radius: 5px;
+}
+.navbar-link{
+  color: var(--white);
+  font-size: var(--fs-4);
+  padding: 10px;
+  border-radius: 4px;
+}
+.navbar-link:is(:hover, :focus){
+  background: hsla(0, 0, 100%, 0.1);
+}
+.navbar-actions{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-btn{
+  color: var(--white);
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 4px;
+}
+.navbar-btn:is(:hover, :focus),
+.navbar-actions .btn:is(:hover,:focus){
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.overlay{
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  transition: var(--transition);
+}
+.overlay.active{
+  pointer-events: all;
+  background: hsla(0, 0%, 100%, 0.7);
 }
