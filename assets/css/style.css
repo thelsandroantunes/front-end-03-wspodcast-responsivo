@@ -75,6 +75,7 @@ input {
   -moz-text-fill-color: none;
   display: flex;
   cursor: pointer;
+  height: 90px;
 }
 ::-webkit-scrollbar{
   width: 10px;
