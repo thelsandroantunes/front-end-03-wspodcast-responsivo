@@ -1,4 +1,3 @@
-# front-end-03-wspodcast-responsivo
 # Website Podcast
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
@@ -7,14 +6,18 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<a><img height="275" src="https://github.com/thelsandroantunes/front-end-03-wspodcast-responsivo/" alt="screen-1"></a>
-<a><img height="275" src="https://github.com/thelsandroantunes/front-end-03-wspodcast-responsivo/" alt="screen-2"></a>
+<a><img height="300" src="https://github.com/thelsandroantunes/front-end-03-wspodcast-responsivo/blob/main/screens/screen-podcast-01.JPG" alt="screen-1"></a>
+<a><img height="300" src="https://github.com/thelsandroantunes/front-end-03-wspodcast-responsivo/blob/main/screens/screen-podcast-02.JPG" alt="screen-2"></a>
+<a><img height="300" src="https://github.com/thelsandroantunes/front-end-03-wspodcast-responsivo/blob/main/screens/screen-podcast-03.JPG" alt="screen-3"></a>
+<a><img height="300" src="https://github.com/thelsandroantunes/front-end-03-wspodcast-responsivo/blob/main/screens/screen-podcast-04.JPG" alt="screen-4"></a>
+<a><img height="300" src="https://github.com/thelsandroantunes/front-end-03-wspodcast-responsivo/blob/main/screens/screen-podcast-05.JPG" alt="screen-5"></a>
+
 
 > Se você quiser dar uma olhada em todas as telas em vídeo demo, elas estão [aqui](https://www.youtube.com/watch?v=m377tVJmdNA).
 
 ## ⭐ Sobre este Projeto
 
-** PS: ** Website de Portólio Pessoal foi escolhido por mim para este projeto por abranger alguns componentes muito utilizados em HTML, CSS e JS. Portanto, todo o código dentro deste aplicativo pode ser reutilizado e modificado conforme sua criatividade e necessidade!
+** PS: ** Website Podcast foi escolhido por mim para este projeto por abranger alguns componentes muito utilizados em HTML, CSS e JS. Portanto, todo o código dentro deste aplicativo pode ser reutilizado e modificado conforme sua criatividade e necessidade!
 
 ## ⚡ Por quê?
 
@@ -32,12 +35,12 @@ Todos nós estamos aprendendo e evoluindo em tecnologia.
 
 ## 🚀 Instalando -Website de Portfólio Pessoal-
 
-Para Clonar o repositório de *front-end-02-website-responsivo*, faça:
+Para Clonar o repositório de *front-end-03-wspodcast-responsivo*, faça:
 
 ```
-$ git clone https://github.com/thelsandroantunes/front-end-02-website-responsivo
+$ git clone https://github.com/thelsandroantunes/front-end-03-wspodcast-responsivo
 
-$ cd front-end-02-website-responsivo
+$ cd front-end-03-wspodcast-responsivo
 ```
 
 
